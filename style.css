@@ -1,0 +1,468 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.img {
+    padding-left: 250px;
+    padding-top: 50px;
+}
+img {
+    max-width: 100%;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.container {
+    width: 1600px;
+    margin: auto;
+}
+.header-section {
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+.header-section .header-menu {
+    background-color: rgb(76, 209, 55);
+}
+.header-section .header-menu .left-header {
+    float: left;
+    padding-left: 60px;
+    padding-top: 25px;
+}
+.header-section .header-menu .left-header h1 {
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+.header-section .header-menu .right-header {
+    float: right;
+    text-decoration: none;
+    padding-right: 60px;
+}
+.header-section .header-menu .right-header ul {
+    list-style-type: none;
+}
+.header-section .header-menu .right-header ul li {
+    display: inline-block;
+}
+.header-section .header-menu .right-header ul li a {
+    text-decoration: none;
+    color: white;
+    line-height: 35px;
+    font-size: 25px;
+    padding: 30px 12px;
+    display: inline-block;
+    transition: all 0.5s ease 0s;
+    margin-left: -4px;
+}
+.header-section .header-menu .right-header ul li a:hover {
+    background-color: rgb(68, 189, 50);
+}
+.banner-section {
+    /* font-family: 'Open Sans', sans-serif; */
+}
+.banner-section .banner {
+    background-image: url("https://i.postimg.cc/d1b524Sx/anna-dudkova-urs-y9-Nw-Fcc-unsplash.jpghttps://i.postimg.cc/d1b524Sx/anna-dudkova-urs-y9-Nw-Fcc-unsplash.jpg");
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    padding-top: 200px;
+    padding-left: 150px;
+}
+.banner-section .banner-details {
+    text-align: center;
+    width: 511px;
+    height: 470px;
+    background-color: rgba(47, 219, 21, 0.41);
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 20px 5px;
+}
+.banner-section .banner-details h1 {
+    padding-bottom: 20px;
+}
+.banner-section .banner-details .training {
+    color: white;
+    font-size: 30px;
+}
+.banner-section .banner-details .courses {
+    font-size: 90px;
+    color: white;
+}
+.banner-section .banner-details p {
+    color: white;
+    font-size: 30px;
+    padding-bottom: 70px;
+}
+.banner-section .banner-details .learn-more {
+}
+.banner-section .banner-details .learn-more a {
+    text-decoration: none;
+    border: 1px solid white;
+    color: rgb(33, 185, 33);
+    background-color: white;
+    padding: 15px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: all 0.5s ease 0s;
+    /* font-family: "Open Sans", sans-serif; */
+}
+.banner-section .banner-details .learn-more a:hover {
+    background-color: rgb(27, 136, 10);
+    color: black;
+}
+.about-section {
+}
+.about-section .about-category {
+    background-color: rgb(91, 170, 59);
+    color: white;
+}
+.about-section .about-category .about {
+    width: 300px;
+    height: 400px;
+    float: left;
+    padding-right: 60px;
+    text-align: center;
+    padding-top: 200px;
+}
+.about-section .about-category .about h1 {
+    font-size: 50px;
+    border-bottom: 5px solid white;
+    padding-bottom: 20px;
+}
+.about-section .about-category .about p {
+    font-size: 30px;
+    padding-top: 25px;
+}
+.about-section .about-category .about-details {
+    padding-bottom: 50px;
+    padding-top: 90px;
+    padding-right: 30px;
+}
+.about-section .about-category .about-details .details-1 {
+    padding-bottom: 60px;
+}
+.about-section .about-category .about-details .details-1 h1 {
+    padding-bottom: 10px;
+   font-size: 40px;
+}
+.about-section .about-category .about-details .details-1 p {
+    font-size: 25px;
+    /* font-family: "Open Sans", sans-serif; */
+}
+.service-section {
+    padding-bottom: 30px;
+}
+.service-section .service-1 {
+    float: left;
+    padding-top: 205px;
+    padding-left: 65px;
+}
+.service-section .service-1 h1 {
+    color: rgb(34, 199, 34);
+    font-size: 68px;
+    padding-bottom: 20px;
+}
+.service-section .service-1 p {
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+.service-section .service-1 a {
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(34, 199, 34);
+    border-bottom: 5px solid rgb(34, 199, 34);
+    transition: all 0.5s ease 0s;
+}
+.service-section .service-1 a:hover {
+    color: black;
+}
+.service-section .img {
+    padding-top: 30px;
+}
+
+.service-section .img img {
+    height: 600px;
+    padding-left: 100px;
+}
+.service-details {
+}
+.service-details .service {
+    background-color: rgb(91, 170, 59);
+}
+.service-details .service .service-details-1 {
+    float: left;
+    width: 450px;
+    height: 500px;
+    color: white;
+    padding-top: 70px;
+    padding-left: 100px;
+}
+.service-details .service .service-details-1 h1 {
+    font-size: 58px;
+    padding-bottom: 25px;
+    border-bottom: 5px solid white;
+}
+.service-details .service .service-details-1 p {
+    font-size: 28px;
+    padding-top: 50px;
+}
+.service-details .service .service-details-2 {
+    width: 800px;
+    height: 537px;
+    float: left;
+    padding-left: 170px;
+    padding-top: 80px;
+}
+.service-details .service .service-details-2 p {
+    font-size: 27px;
+    padding-bottom: 30px;
+    color: white;
+}
+.service-details .service .service-details-2 a {
+    font-size: 25px;
+    text-decoration: none;
+    color: green;
+    background-color: white;
+    padding: 10px 15px;
+    transition: all 0.5s ease 0s;
+}
+.service-details .service .service-details-2 a:hover {
+    background-color: rgb(27, 136, 10);
+    color: black;
+}
+
+.training {
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.training .training-img {
+    float: left;
+}
+.training .training-1 {
+    width: 546px;
+    margin-left: 202px;
+    float: left;
+    margin-top: 162px;
+    /* padding-left: 50px; */
+}
+.training .training-1 h2 {
+    letter-spacing: 5px;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+.training .training-1 h1 {
+    color: rgb(34, 199, 34);
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+.training .training-1 p {
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+.training .training-1 a {
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(34, 199, 34);
+    border-bottom: 5px solid rgb(34, 199, 34);
+    transition: all 0.5s ease 0s;
+    letter-spacing: 5px;
+}
+.training .training-1 a:hover{
+    color: black;
+}
+
+.service-item {
+    background-color: rgb(68, 189, 50);
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.service-item .item {
+    float: left;
+    width: 937px;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.service-item .item .first-item {
+    background-color: white;
+    padding-left: 30px;
+}
+.service-item .item .first-item .item-1 {
+    width: 425px;
+    float: left;
+    padding-top: 70px;
+    text-align: center;
+    padding-right: 11px;
+}
+.service-item .item .first-item .item-1 h1 {
+    font-size: 55px;
+    padding-bottom: 15px;
+    color: #44bd32;
+}
+.service-item .item .first-item .item-1 h2 {
+    font-size: 30px;
+    padding-bottom: 15px;
+    letter-spacing: 5px;
+}
+.service-item .item .first-item .item-1 p {
+    font-size: 21px;
+}
+.service-item .item .first-item .item-2 {
+    width: 425px;
+    float: left;
+    padding-bottom: 70px;
+    padding-top: 70px;
+    text-align: center;
+}
+.service-item .item .first-item .item-2 h1 {
+    font-size: 55px;
+    padding-bottom: 15px;
+    color: #959595;
+}
+.service-item .item .first-item .item-2 h2 {
+    font-size: 30px;
+    letter-spacing: 5px;
+    padding-bottom: 15px;
+}
+.service-item .item .first-item .item-2 p {
+    font-size: 21px;
+}
+.service-item .item .last-item {
+    background-color: white;
+    padding-left: 30px;
+}
+.service-item .item .last-item .item-3 {
+    width: 425px;
+    float: left;
+    padding-top: 30px;
+    text-align: center;
+    padding-right: 16px;
+}
+.service-item .item .last-item .item-3 h1 {
+    font-size: 55px;
+    padding-bottom: 15px;
+    color: black;
+}
+.service-item .item .last-item .item-3 h2 {
+    font-size: 30px;
+    letter-spacing: 5px;
+    padding-bottom: 15px;
+}
+.service-item .item .last-item .item-3 p {
+    font-size: 21px;
+}
+.service-item .item .last-item .item-4 {
+    width: 425px;
+    float: left;
+    padding-bottom: 76px;
+    padding-top: 30px;
+    text-align: center;
+}
+.service-item .item .last-item .item-4 h1 {
+    font-size: 55px;
+    padding-bottom: 15px;
+    color: rgb(230, 230, 19);
+}
+.service-item .item .last-item .item-4 h2 {
+    font-size: 30px;
+    letter-spacing: 5px;
+    padding-bottom: 15px;
+}
+.service-item .item .last-item .item-4 p {
+    font-size: 21px;
+}
+.service-item .img img {
+    height: 698px;
+    width: 460px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.owner {
+    padding-bottom: 50px;
+}
+.owner .img img {
+    height: 300px;
+    border-radius: 50%;
+    width: 300px;
+    float: left;
+}
+
+.owner .owner-details {
+    float: left;
+    width: 500px;
+    padding-left: 250px;
+    padding-top: 25px;
+}
+.owner .owner-details p {
+    font-size: 30px;
+}
+.owner .owner-details p:first-letter {
+    font-size: 70px;
+    color: #44bd32;
+}
+
+.contact {
+    background-color: #5baa3b;
+}
+.contact .contact-details {
+    float: left;
+    width: 600px; /* height: 461px; */
+    color: white;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-bottom: 100px; /* padding-right: 123px; */
+}
+.contact .contact-details h1 {
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.contact .contact-details h1::first-letter {
+    font-size: 80px;
+    color: black;
+}
+.contact .contact-details p {
+    font-size: 25px;
+}
+
+.contact .contact-me {
+    width: 600px;
+    color: black;
+    padding-top: 70px;
+    padding-left: 122px;
+    padding-bottom: 60px;
+    margin-left: 100px;
+    float: left;
+    background-color: white;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.contact .contact-me h1 {
+    letter-spacing: 5px;
+    color: rgb(24, 201, 24);
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+.contact .contact-me h1::first-letter {
+    font-size: 80px;
+    color: black;
+}
+.contact .contact-me p {
+    font-size: 22px;
+    line-height: 40px;
+    padding-left: 15px;
+}
+
+.footer {
+    background-color: #323232;
+    text-align: center;
+    padding: 45px 0;
+}
+.footer p {
+    color: white;
+    font-size: 25px;
+}
